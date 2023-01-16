@@ -1,14 +1,15 @@
 <div class="form-top">
     <h3>Log In</h3>
 </div>
-<form action="#" method="POST" id="login-form">
+<form action="/users/login" method="POST" id="login-form">
     <div class="form-group">
         <label for="name">Name:</label>
-        <input type="text" class="form-control" placeholder="Your Name...">
+        <input type="text" class="form-control" placeholder="Your Name..." name="ljina">
     </div>
     <div class="form-group">
         <label for="pass">Password:</label>
-        <input type="password" class="form-control" placeholder="Password...">
+        <input type="password" class="form-control" placeholder="Password..." name="lsiri">
     </div>
-    <button class="btn btn-primary">Log In</button>
+    <button type="submit" class="btn btn-success">Log In</button>
+    <p>Not Yet Registered? <a href="/signup">Register Here</a>.</p>
 </form>

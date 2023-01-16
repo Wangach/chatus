@@ -6,15 +6,15 @@
     background: rgba(0, 0, 0, 0.89);
     color: rgba(255, 252, 252, 0.705);
     text-align: center;
-    width: 60%;
+    width: 50%;
     margin: 2rem auto 0;
     border-radius: .5rem;
     padding: 2.5rem;
 }
 #reg-form, #login-form {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: .5rem;
     border: 1px solid #ccc;
 }
